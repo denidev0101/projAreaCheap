@@ -1,3 +1,59 @@
+/* Estilos gerais */
+*{
+  text-decoration: none;
+}
+
+a{
+font-weight: bold;
+color: black;
+}
+
+button {
+  background-color: aquamarine;
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Cabeçalho */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+}
+
+#logo{
+  margin: 3%;
+  width: 45%;
+  height: auto;
+}
+
+header > a{
+  text-decoration: none;
+}
+
+/* Barra de navegação */
+nav{
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
 
 /* Cards de listagem */
 .listing-card {
