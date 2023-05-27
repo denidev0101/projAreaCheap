@@ -33,3 +33,37 @@ body{
 .section{
     display: flex;
 }
+img{
+    width: 200px;
+    margin: 10px;
+    /*border-radius: 10px;
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.4);*/
+}
+
+.p{
+    margin: 10px;
+}
+button{
+    /*outline: none;
+    border: none;*/
+    cursor: pointer;
+    width: 100px;
+    padding: 8px 12px;
+    margin: 25px 20px 0 0;
+    color: white;
+    border-radius: 6px;
+    background-color: aquamarine;
+    border: 1px solid black;
+     border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aqua;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    }
